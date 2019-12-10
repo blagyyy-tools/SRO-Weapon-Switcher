@@ -1,0 +1,19 @@
+Changelog:
+
+- v1.3:
+Target Self is now usable with HoldSpace, WeaponSwitcher and Standalone!
+UI Changes
+Checkboxes are now saved!
+
+- v1.2:
+Added a Checkbox to enable the Weapon Switcher.
+Both Features can now be enabled together!
+Added a Feature to target yourself. (You can use the SelfTarget with either one of the Features. DO NOT USE IT WITH BOTH! - I will fix this in the next Version if it's possible.)
+
+- v1.1:
+Increased overall Performance of the Script a little bit.
+Added a new Feature: Keep Weapon equipped when holding the Spacebar.
+(The Main Function of the Script will be disabled as long as the new Feature is active)
+
+- v1.0:
+Initial Release
