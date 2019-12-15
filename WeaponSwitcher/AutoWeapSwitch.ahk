@@ -1,7 +1,7 @@
 ﻿SetWorkingDir %A_ScriptDir%
 #SingleInstance, Force
 
-FileInstall, icon.ico, %a_temp%/Icon.ico, 1
+FileInstall, SROWSicon.ico, %a_temp%/SROWSIcon.ico, 1
 
 FileInstall, sroskillbar.jpg, %a_temp%/sroskillbar.jpg, 1
 
@@ -50,7 +50,7 @@ IniRead, CB11, SwitcherConfig.ini, Checkboxes, CBST9, 0
 IniRead, CB12, SwitcherConfig.ini, Checkboxes, CBST0, 0
 
 Default:
-Menu, Tray, Icon, %a_temp%/Icon.ico, 1, 1
+Menu, Tray, Icon, %a_temp%/SROWSIcon.ico, 1, 1
 Gui, Font, s11 cBlack, Verdana
 gui, destroy
 gui -caption
@@ -253,7 +253,7 @@ ExitApp
 return
 
 Readme:
-Menu, Tray, Icon, %a_temp%/Icon.ico, 1, 1
+Menu, Tray, Icon, %a_temp%/SROWSIcon.ico, 1, 1
 Gui, Destroy
 Gui, Font, s11 cBlack, Verdana
 if (A_Language = "0407")
@@ -317,7 +317,7 @@ Gui, Add, Picture, x55 y32 w639 h320, %a_temp%/sroskillbar.jpg
 Return
 
 ReadmeSpaceHold:
-Menu, Tray, Icon, %a_temp%/Icon.ico, 1, 1
+Menu, Tray, Icon, %a_temp%/SROWSIcon.ico, 1, 1
 Gui, Destroy
 Gui, Font, s11 cBlack, Verdana
 if (A_Language = "0407")
