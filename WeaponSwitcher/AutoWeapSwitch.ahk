@@ -1,5 +1,8 @@
-﻿SetWorkingDir %A_ScriptDir%
-#SingleInstance, Force
+﻿#SingleInstance Force
+if not A_IsAdmin
+Run *RunAs "%A_ScriptFullPath%"
+
+SetWorkingDir ,%A_ScriptDir%
 
 FileInstall, SROWSicon.ico, %a_temp%/SROWSIcon.ico, 1
 
